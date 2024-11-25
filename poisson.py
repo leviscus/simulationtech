@@ -108,11 +108,11 @@ if __name__ == "__main__":
     uh, ue = solve_poisson(
     n=4,
     degree=1
-)
+    )
 
-error_L2 = errornorm(uh, ue, "L2")
-print("L2-error:", error_L2)
-error_H1 = errornorm(uh, ue, "H1")
-print("H1-error:", error_H1)
+    error_L2 = errornorm(uh, ue, "L2")
+    print("L2-error:", error_L2)
+    error_H1 = errornorm(uh, ue, "H1")
+    print("H1-error:", error_H1)
 
-save_solution(uh)
+    save_solution(uh)
