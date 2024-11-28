@@ -16,8 +16,6 @@ def test_exact_solution():
 def test_convergence_P1():
     """Test that P1 elements converge linearly in the H1 norm and quadratically in the L2 norm
     """
-    
-    pass
 
 # Test implementation below the placeholder
     mesh_sizes = [4, 8, 16, 32]  # List of mesh resolutions
